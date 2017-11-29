@@ -1,0 +1,11 @@
+Windows Enviroment Web Deployment using Internet Information Services
+
+** Craete Project Directory under inetpub folder.
+** Create log Directory under project directory.
+** Create Backup Directory under project directory.
+** Create wwwroot Directory under project directory.
+** Add IIS user and give Read & execute, List folder content and Read permissions to wwwroot folder for this user.
+** Add all web app files to wwwroot folder.
+** Using IIS setup required SSL certificate and assign bindings with port 80 and 443 for HTTP and HTTPS requests.
+** Make sure your IP address doesn't conflict with other web apps.
+** Add your web server IP to your DNS provider.
